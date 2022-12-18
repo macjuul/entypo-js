@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": [ "DOM", "DOM.Iterable", "ESNext" ],
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"outDir": "dist",
+	},
+	"include": [
+		"src/index.ts",
+	],
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}
